@@ -90,32 +90,14 @@ a {
   font-size:20px;
 }
 
-.sketch-image {
-  width: 750px;
-  height: 400px;
-  align: middle;
+.sketch-image, .analysis-image, .analysis-image-2, .data-image, .alpha, .beta , .final, .findings, .lfp-image, .hfp-image-2, .hfp-image {
+  width:100%;
+  height:auto;
 }
 
-.analysis-image {
-  width: 800px;
-  height: 600px;
-  align: middle;
-}
-
-.analysis-image-2 {
-  width: 400px;
-  height: 500px;
-  margin-left:100px;
-}
-
-.data-image {
-  width: 800px;
-  height: 600px;
-}
-
-.alpha, .beta , .final, .findings {
-  width: 800px;
-  height: 600px;
+.video-image {
+ width: 100%;
+ height:400px;
 }
 
 .takeaways {
@@ -154,28 +136,6 @@ a {
   font-size: 13px;
   text-align: justify;
 }
-
-.lfp-image{
-  width:400px;
-  height:400px;
-  align:middle;
-  margin-left:100px;
-}
-
-.hfp-image-2 {
-  width: 500px;
-  height: 300px;
-  align:middle;
-  margin-left:100px;
-}
-
-.hfp-image {
-  width: 500px;
-  height: 300px;
-  align:middle;
-  margin-left:100px;
-}
-
 
 .circular--landscape img {
   width: auto;
