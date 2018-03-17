@@ -7,23 +7,56 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#00a300">
+    <meta name="theme-color" content="#ffffff"> 
     <title>Pavithra's Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/hexagons.css">
+
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Source Sans Pro:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
     <link href="css/portfolio-style.css" rel="stylesheet">
+
+     <style>
+     .container1 {
+  width: 35px;
+  height: 1px;
+  background-color: black;
+  position: relative;
+  top:70px;
+}
+.circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  left: calc(50% - 5px);
+}
+.yellow {
+  background: #fed136;
+}
+.yellow .circle {
+  background: #fed136;
+  border-color: #fed136;
+}
+
+  </style>
 
   </head>
 
@@ -32,22 +65,22 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">P.R.</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Pavithra R.</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#process">Process</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
+            </li>          
           </ul>
         </div>
       </div>
@@ -57,71 +90,150 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">I am</div>
-          <div class="intro-heading"><span class="typewrite" data-period="2000" data-type='[ "Pavithra Ramasamy.","a UX Researcher.", "a UX Designer."]'></span></div>
+          <div class="intro-lead-in">I'm</div>
+          <div class="intro-heading"><span class="typewrite" data-period="2000" data-type='["Pavithra Ramasamy.", "a UX Researcher.", "a UX Designer.", "a Front-End Developer."]'></span></div>
           <a href="#about" class="btn btn-circle js-scroll-trigger"><i class="fa fa-angle-double-down animated"></i></a>
         </div>
       </div>
     </header>
 
-    <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
+
+    <!-- Process -->
+   <section class="content-section bg-light text-black text-center" id="process">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Projects</h2>
-            <h3 class="section-subheading text-muted center"><i class="fa fa-star"></i></h3>
-          </div>
+        <div class="content-section-heading">
+          <h2 class="section-heading text-uppercase">Process</h2>
+          <h3 class="section-subheading text-muted center"><i class="fa fa-star"></i></h3>
         </div>
         <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/logo.svg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Learning tool for Kids</h4>
-              <p class="text-muted">Design and Prototyping</p>
-            </div>
+          <div class= "mb-5 mb-lg-0">
+            <span class="hb hb-md spin-icon">
+              <i class="fa fa-heart"></i>
+            </span><br><br>
+            <h5>Empathize</h5>
+            <img src="img/empathize.png" height="120px" width="120px">
+          </div><div class="container1">
+            <div class="circle"></div>
+          </div><!-- <hr><hr><hr> -->
+          <div class="mb-5 mb-lg-0">
+            <span class="hb hb-md spin-icon">
+              <i class="fa fa-search"></i>
+            </span><br><br>
+            <h5>Discover</h5>
+            <img src="img/discover.png" height="120px" width="120px">
+          </div><div class="container1">
+            <div class="circle"></div>
+          </div><!-- <hr><hr><hr> -->
+          <div class="mb-5 mb-md-0">
+           <span class="hb hb-md spin-icon">
+              <i class="fa fa-wpforms"></i>
+            </span><br><br>
+            <h5>Define</h5>
+            <img src="img/define.png" height="120px" width="120px">
+          </div><div class="container1">
+            <div class="circle"></div>
+          </div><!-- <hr><hr><hr> -->
+          <div class="mb-5 mb-md-0">
+           <span class="hb hb-md spin-icon">
+              <i class="fa fa-edit"></i>
+            </span><br><br>
+            <h5>Ideate</h5>
+            <img src="img/ideate.png" height="120px" width="120px">
+          </div><div class="container1">
+            <div class="circle"></div>
+          </div><!-- <hr><hr><hr> -->
+          <div class="mb-5 mb-md-0">
+           <span class="hb hb-md spin-icon">
+              <i class="fa fa-id-card-o"></i>
+            </span><br><br>
+            <h5>Prototype</h5>
+            <img src="img/prototype.png" height="120px" width="120px">
+          </div><div class="container1">
+            <div class="circle"></div>
+          </div><!-- <hr><hr><hr> -->
+          <div class="mb-5 mb-md-0">
+           <span class="hb hb-md spin-icon">
+              <i class="fa fa-tasks"></i>
+            </span><br><br>
+            <h5>Test</h5>
+            <img src="img/test.png" height="120px" width="120px">
+          </div><div class="container1">
+            <div class="circle"></div>
+          </div><!-- <hr><hr><hr> -->
+          <div class="mb-5 mb-md-0">
+           <span class="hb hb-md spin-icon">
+              <i class="fa fa-desktop"></i>
+            </span><br><br>
+            <h5>Evaluate</h5>
+             <img src="img/evaluate.png" height="120px" width="120px">
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/data_viz.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Cascading Delays</h4>
-              <p class="text-muted">Data Visualization</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/edx.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>edX Discussion Board</h4>
-              <p class="text-muted">Heuristic Evaluation</p>
-            </div>
-          </div>
-          
+        </div>
       </div>
     </section>
 
+
+    <!-- Portfolio Grid -->
+     <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h2 class="section-heading text-uppercase">Projects</h2>
+          <h3 class="section-subheading text-muted center"><i class="fa fa-star"></i></h3>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2 class="mb-0">Dot Dot Dot</h2>
+                  <p class="mb-0">Designing and Prototyping an interactive learning tool for kids</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/children.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" data-toggle="modal" href="#portfolioModal2">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Visualizing Cascading Delays</h2>
+                  <p class="mb-0">Visualizing cascading delays in flight patterns in the US</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/Map.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" data-toggle="modal" href="#portfolioModal3">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Evaluation of the edX discussion forum</h2>
+                  <p class="mb-0">Heuristics based evalution of the edX discussion board</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/edx.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" data-toggle="modal" href="#portfolioModal4">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Boarding Pass Redesign</h2>
+                  <p class="mb-0">Redesign concept to show only important information</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/boarding_pass.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
     <!-- About -->
-    <section id="about">
+    <section id="about" class="bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -135,11 +247,11 @@
         <p class="aboutPara"> My interests are to devise assistive technologies for the disabled and help them overcome their difficulties. Currently, I work as a Research Assistant at the Trace R&D Center, University of Maryland focusing on assistive technologies, inclusive design and accessibility. </p>
         <p class="aboutPara"> My undergrad background is in Information Technology. Post my undergraduate studies, I worked for a year at Temenos, a Banking Software Company as a Product Analyst. At Temenos, I was responsible for creating innovative customer experiences, gathering business requirements and interacting with clients on a daily basis to understand their pain points. </p>
         <p class="aboutPara"> Aside from my academic works, I enjoy travelling around to different places, listening to good melodious music and reading novels. My favorite authors are Nicholas Sparks and Sidney Sheldon. Their books have always helped me understand minute nuances from a different perspective, which has in turn helped me grow as a person.</p>
-        <p class="aboutPara"> I am actively seeking internship opportunities for Summer 2018 as a UX Researcher or UX Designer. Please feel free to check my projects and resume. </p>
+        <p class="aboutPara"> I am actively seeking internship opportunities for Summer 2018 as a UX Researcher or UX Designer.</p>
         <p class="aboutPara" id="thanks"> Thanks for stopping by! </p>
         <div class="col-lg-12 text-center">
         <div id="downResume"></div>
-        <button type="button" class="btn btn-primary btn-xl text-uppercase" onclick="window.open('https://github.com/PavithraRamasamy/Portfolio/blob/master/resume/Resume_2nd_Jan_2018.pdf')"><i class="fa fa-download"></i> Download Resume </button>
+        <button type="button" class="btn btn-primary btn-xl text-uppercase" onclick="window.open('https://github.com/PavithraRamasamy/Portfolio/raw/master/resume/Pavithra_Ramasamy_Resume.pdf')"><i class="fa fa-download"></i> Download Resume </button>
       </div>
       </div>
       </div>
@@ -147,55 +259,17 @@
 
 
     <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Let's Stay in Touch !</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit"><i class="fa fa-envelope"></i> Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+   <!--  <div class="googlemap-responsive" id="mapsCollegePark">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.2442115821304!2d-76.94474298459008!3d38.9869224492671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6bd3e9aaaab%3A0xd48e8bdda5e4da9a!2sUniversity+of+Maryland!5e0!3m2!1sen!2sin!4v1515512384383" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div> -->
 
+   
     <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Pavithra Ramasamy | 2017</span>
+            <span class="copyright">Copyright &copy; Pavithra Ramasamy | 2018</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -262,7 +336,7 @@
                   </ul>
                   <p class="headers"><strong>Our Process</strong></p>
                   <p class="processflow">The approach that we took to design this project is divided into five phases - Design Problem, Brainstorming, Analysis, Prototyping and Evaluation.</p> 
-                  <img src="img/DesignProcess.png" alt="">
+                  <img class= "sketch-image" src="img/DesignProcess.png" alt="">
                   <p class="processflow"><strong>Design Problem</strong></p>
                   <p class="processflow-1">On observing a coding classroom for the elementary school kids at the Washington Cathay Pacific Center, we noticed that the kids were
 focussed on moving up through the levels in the game based learning exercise but were not keen on looking into the javascript code that followed it. We also noticed that the students were demotivated and were not finding the exercises engaging.<br><br>The lead causes for the kid’s lack of interest are the difficulty of the materials, different interests based on their genders, the presentation of the learning materials, and the different adaptability rates.</p>
@@ -275,7 +349,6 @@ focussed on moving up through the levels in the game based learning exercise but
 				  <p class="processflow"><strong>Analysis</strong></p>
 				  <p class="processflow">Post our brainstorming phase, we developed personas and scenarios to support our ideas. The personas that we developed were of kids, teachers and parents. We drew several key insights to accomodate these personas in our designs.</p>
 				  <img class="analysis-image" src="img/portfolio/P1.png" alt=""><br>
-				  <img class="analysis-image-2" src="img/portfolio/P2.png" alt=""><br>
 				  <p class="processflow"><strong>Prototyping</strong></p>
 				  <p class="processflow">For testing the developed personas and scenarios, we then developed low and high-fidelity prototypes to help understand the user experience of our tool. From the sketches that we developed, three major ideas stood out - <strong>Social Media for kids to promote knowledge transfer, Leaderboard to encourage healthy competition and Game-based learning activities to engage the kids</strong> - which we have focused on our prototypes.</p>
 				  <p class="lofiprototype"><strong>Low Fidelity Prototype</strong></p>
@@ -289,7 +362,7 @@ focussed on moving up through the levels in the game based learning exercise but
 				  <p class="processflow">With our low fidelity prototypes and high fidelity prototypes, I conducted heuristic evaluation and cognitive walkthroughs with expert users. The users commented that the tool provided an engaging and interesting way to learn, the icons were large thus being simple and easy to use for elementary kids.On the other hand, certain issues that the experts faced with our tool was that, proper feedback and current status of thetool was lacking. Also, it was mentioned that some of the buttons were also not accessible as full functionality was not included in the prototype. Finally, the experts also suggested that addition of previous screen navigation button could be very useful incases where the kid erroneously clicks on a button and there is no undo option. From all the feedback that we received through all our evaluation, we analysed and modified the high-fidelity prototype according to the feedback received.</p>
 				  <p class="headers"><strong>Demo Video</strong></p>
 				  <p class="processflow">To aid our design solution, we created a video prototype and animation of our interactive tool using Adobe AfterEffects.</p>
-				  <iframe width="500" height="315" src="https://www.youtube.com/embed/huaeTca5U3A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe><br><br>
+				  <iframe class="video-image" width="500" height="315" src="https://www.youtube.com/embed/huaeTca5U3A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe><br><br>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
@@ -364,7 +437,7 @@ focussed on moving up through the levels in the game based learning exercise but
 						<li>Average delay(in minutes)caused due to delay in origin airport.</li>
 						<li>Average delay(in minutes)at other airports caused due to delay in origin airport.</li></ol></p>
 					<p class="headers"><strong>Video of our Visualization</strong></p>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/B068VUrUzH8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe><br><br>
+					<iframe class="video-image" width="560" height="315" src="https://www.youtube.com/embed/B068VUrUzH8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe><br><br>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
@@ -430,7 +503,7 @@ focussed on moving up through the levels in the game based learning exercise but
 
 					<p class="headers"><strong>Heuristic Evaluation Report</strong></p>
 					<p class="processflow">Once I had analyzed the interface of the discussion forum, jotted down the violations that I came across with the interface and prioritized the violations based on their severity, I wrote a research report to debrief my findings and provide suggestions to improve.</p>
-					<button type="button" class="btn btn-primary btn-xl" onclick="window.open('file:///Users/pavithraramasamy/Desktop/Portfolio/resume/edx_Research_Report.pdf')"><i class="fa fa-eye"></i> View Report </button><br><br>
+					<button type="button" class="btn btn-primary btn-xl" onclick="window.open('https://github.com/PavithraRamasamy/Portfolio/raw/master/resume/edX_Research_Report.pdf')"><i class="fa fa-download"></i> Download Report </button><br><br>
 
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -443,8 +516,95 @@ focussed on moving up through the levels in the game based learning exercise but
       </div>
     </div>
 
-
-    
+ <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Boarding Pass Redesign</h2>
+                  <p class="item-intro text-muted"></p>
+                  <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt=""> -->
+                  <ul class="inline-bullets">
+                    <li><b>Duration:</b> Spring 2018 - Individual Project</li><br>
+                    <li><b>Course:</b> HCI Design Methods</li><br>
+                    <li><b>Tools and Methods:</b> Brainstorming, Pen and Paper sketching, User Interviews and Adobe Illustrator</li><br>
+                    <!-- <li><b>My Role:</b> User Researcher - identified key findings, assessed severities and heuristics the findings violated</li><br> -->
+                  </ul><br>
+                  <p class="processflow">For this project, I started by doing a quick research on who the users and defined their main goal. I conducted several informal user interviews and tried to understand their pain points and their needs. With the information that I received from the users, I observed that the current boarding pass designs does not aid the users in the aspects of memory and cognition. They either had too much of information to process or they made the user to think and recall a lot of things as opposed to Nielsen's famous heuristic - Recognition rather than Recall. </p><br>
+                  <p class="processflow"><em>DISCLAIMER</em> - I am in no way related to Delta Airlines and its affiliates. I have chosen it just for a proof of concept for this project.</p> 
+                  <p class="headers"><strong>Process</strong></p>
+                  <p class="processflow"><strong>Discover</strong></p>
+                  <p class="processflow">Who are the users?</p>
+                  <p class="processflow">On a short research on the target audience, I found that there are 2 main group of users - the passengers and the flight attendents. For this project, I am focusing on the passengers perspective alone.</p>
+                  <p class="processflow">User Goals</p>
+                  <p class="processflow">To correctly identify required information on-the-go and help remember it throughout rather than wanting to look at the boarding pass again and again.<br> To find out more about the needs and the pain points of the users, I conducted informal user interviews with my friends.</p> 
+                  <p class="processflow"><strong>Define - Current Issues:</strong></p>
+                  <p class="processflow">The observations I made from the interviews are as follows - </p>
+                  <ul class="inline-1">
+                    <li> It is difficult to retrieve information on-the-go from the boarding passes as they are cramped with a lot of information.</li>
+                    <li> For frequent travellers, it is difficult to keep track of the airports they are travelling to and the connections they will be making during their journey. </li>
+                  </ul>
+                  <p class="processflow"><strong>Design Ideas</strong></p>
+                  <p class="processflow">I came up with the following design ideas that would aid the user in terms of memory and cognition and also help them in retaining information.</p>
+                  <figure>
+                  <img class="data-image" src="img/sketch1.png" alt="">
+                  <figcaption><strong>Sketch 1</strong>- Important information such as flight, gate, seat and zone in bolded characters to make them stand out and easy to find in a boarding pass.</figcaption>
+                </figure>
+                <figure>
+                  <img class="data-image" src="img/sketch2.png" alt="">
+                  <figcaption><strong>Sketch 2</strong>- Similar to sketch #1 but with involving law of proximity and law of similarity thereby grouping similar items together.</figcaption>
+                </figure>
+                <figure>
+                  <img class="data-image" src="img/sketch3.png" alt="">
+                  <figcaption><strong>Sketch 3</strong>- Concept of displaying things farther on the go. When the passenger is moving towards the gate after security check, the information required is only the gate number so I have shown the gate number in bolded characters. Later on, they would need the flight, seat and zone information which is shown on the sides.</figcaption>
+                </figure>
+                 <figure>
+                  <img class="data-image" src="img/sketch4.png" alt="">
+                  <figcaption><strong>Sketch 4</strong>- Highlighting the place of departure and destination and then displaying the other information in a relevant manner following laws of memory in the order in which they occur.</figcaption>
+                </figure>
+                 <figure>
+                  <img class="data-image" src="img/sketch5.png" alt="">
+                  <figcaption><strong>Sketch 5</strong>- Following laws of consistency and similarity, I have grouped similar items together and displayed only information that is really required.</figcaption>
+                </figure>
+                 <figure>
+                  <img class="data-image" src="img/sketch6.png" alt="">
+                  <figcaption><strong>Sketch 6</strong>- Through user problems discovery, it was noted that often times when people travel frequently it is quite difficult for them to remember the place they are travelling to and the airport from which they will be boarding. To employ recall rather than recognition, this design talks more about involving cognition and perception.</figcaption>
+                </figure>
+                <figure>
+                  <img class="data-image" src="img/sketch7.png" alt="">
+                  <figcaption><strong>Sketch 7</strong>-  A wallet sized design which shows the departing city on the left - with the flight details on the middle - and the destination city on the right thereby indicating a sequence of events.</figcaption>
+                </figure>
+                <figure>
+                  <img class="data-image" src="img/sketch8.png" alt="">
+                  <figcaption><strong>Sketch 8</strong>- Further improvising on Sketch #7, I designed this sketch improvising on consistency and aesthetics as well.</figcaption>
+                </figure>
+                <p class="processflow"><strong>Final Design</strong></p>
+                <p class="processflow">Based on the inputs I received from the users on my sketches, I redesigned the boarding passes based on concepts of memory, cognition and gestalt laws.
+                <p class="processflow">This design was developed in adherence to Sketch #8. The most important information for a user on the go is their departing city to destination city information along with the date and time of travel. To indicate this information and make them stand out, I have highlighted them to improve cognition and memory. Following Miller’s law of remembering only 7 (plus or minus 2) items at a time, the other information such as Flight, Gate, Seat and Zone are displayed in the middle of the boarding pass. To improve aesthetics, this information is provided inside a flight shaped object as this information is only required while boarding on to the flight. The perforated portion of the pass holds the same information in a simple manner for the flight attendants to easily recognize the information following Neilsen’s heuristic of Recognition rather than Recall.</p>
+                <img class="data_image" src="img/boarding_pass_2.png" width="700" height="400" alt="">
+                <p class="processflow">On talks with users and frequent flyers, it was noted that most of them keep their boarding passes on their passports and each time they need to look at the information, they had to take their boarding passes off their passports and view the information. In order to avoid this situation, I have designed a passport sized design that fits well within the passport. When the passenger needs to look at the flight details, they just need to lift the flap of the pass on the top – where they can directly view the square of information on Seat, Gate and Zone instead of taking the whole boarding pass outside of the passport to view the information. As QR codes store more information than barcodes, this design employs the usage of QR codes to store all the passenger details. This design employs law of proximity for the square shaped information and also uses Fitt’s Law – reaching the target is much more quick in this design and it also fits well inside the passport. Miller’s Law and Law of similarity are also followed here for better memory and cognition.</p>
+                <img class="data_image" src="img/boarding_pass_1.png" width="500" height="600" alt="">
+                <p class="processflow"><strong>Reflection</strong></p>
+                <p class="processflow">Considering the amount of time spent on this quick 2 days project, I am personally very satisfied with the outcome. However, I realize that there are several things that could’ve been improved during the process. Through this project, I learnt <strong> not to overlook on the importance of user data and not to make any assumptions(thinking of ourselves in the place of user).</strong>User Research always helps in identifying accurate needs and goals of the user.</p><br><br>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -455,7 +615,6 @@ focussed on moving up through the levels in the game based learning exercise but
 
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
